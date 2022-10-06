@@ -22,4 +22,3 @@ class TestingLongestDistinctSubstring(unittest.TestCase):
         input_str = '123abcabc564j'
         answer = 7
         self.assertEqual(longestDistinctSubstring.longest_substring(input_str), answer)
-
